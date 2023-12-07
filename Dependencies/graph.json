@@ -1,0 +1,633 @@
+{
+  "externalDependencies" : {
+    "Base_SDK" : [
+      {
+        "project" : {
+          "target" : "Base_SDK",
+          "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK"
+        }
+      }
+    ],
+    "UI_Kit_Package" : [
+      {
+        "project" : {
+          "target" : "UI_Kit_Package",
+          "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/UI_Kit_Package"
+        }
+      }
+    ]
+  },
+  "externalProjects" : [
+    "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/UI_Kit_Package",
+    {
+      "options" : {
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        },
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        }
+      },
+      "schemes" : [
+
+      ],
+      "sourceRootPath" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/UI_Kit_Package",
+      "packages" : [
+
+      ],
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "isExternal" : true,
+      "xcodeProjPath" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/UI_Kit_Package\/UI_Kit_Package.xcodeproj",
+      "name" : "UI_Kit_Package",
+      "settings" : {
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "variant" : "release",
+            "name" : "Release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        },
+        "base" : {
+
+        }
+      },
+      "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/UI_Kit_Package",
+      "resourceSynthesizers" : [
+        {
+          "parser" : "strings",
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parserOptions" : {
+
+          }
+        },
+        {
+          "extensions" : [
+            "xcassets"
+          ],
+          "parser" : "assets",
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parserOptions" : {
+
+          }
+        },
+        {
+          "extensions" : [
+            "plist"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "parserOptions" : {
+
+          }
+        },
+        {
+          "parser" : "fonts",
+          "parserOptions" : {
+
+          },
+          "extensions" : [
+            "otf",
+            "ttf",
+            "ttc"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          }
+        }
+      ],
+      "additionalFiles" : [
+
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "destinations" : [
+            "iPhone",
+            "macWithiPadDesign",
+            "appleVisionWithiPadDesign",
+            "iPad"
+          ],
+          "settings" : {
+            "base" : {
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/UI_Kit_Package\/Sources\/UI_Kit_Package\/SwiftUIView.swift"
+            },
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/UI_Kit_Package\/Sources\/UI_Kit_Package\/PotfolioCardView.swift"
+            }
+          ],
+          "productName" : "UI_Kit_Package",
+          "product" : "framework",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "name" : "UI_Kit_Package",
+          "coreDataModels" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "rawScriptBuildPhases" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "copyFiles" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "bundleId" : "UI.Kit.Package",
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "mergeable" : false,
+          "resources" : [
+
+          ],
+          "prune" : false,
+          "environmentVariables" : {
+
+          },
+          "additionalFiles" : [
+
+          ],
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "buildRules" : [
+
+          ]
+        }
+      ]
+    },
+    "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK",
+    {
+      "resourceSynthesizers" : [
+        {
+          "parserOptions" : {
+
+          },
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings"
+        },
+        {
+          "parserOptions" : {
+
+          },
+          "extensions" : [
+            "xcassets"
+          ],
+          "parser" : "assets",
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          }
+        },
+        {
+          "extensions" : [
+            "plist"
+          ],
+          "parser" : "plists",
+          "parserOptions" : {
+
+          },
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          }
+        },
+        {
+          "extensions" : [
+            "otf",
+            "ttc",
+            "ttf"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "parserOptions" : {
+
+          }
+        }
+      ],
+      "name" : "Base_SDK",
+      "lastUpgradeCheck" : "99.9.9",
+      "options" : {
+        "disableBundleAccessors" : false,
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "textSettings" : {
+
+        },
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableSynthesizedResourceAccessors" : true
+      },
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "settings" : {
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        },
+        "configurations" : [
+          {
+            "variant" : "release",
+            "name" : "Release"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "base" : {
+
+        }
+      },
+      "schemes" : [
+
+      ],
+      "sourceRootPath" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK",
+      "packages" : [
+
+      ],
+      "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK",
+      "additionalFiles" : [
+
+      ],
+      "isExternal" : true,
+      "targets" : [
+        {
+          "resources" : [
+
+          ],
+          "product" : "framework",
+          "copyFiles" : [
+
+          ],
+          "sources" : [
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK\/Sources\/Base_SDK\/Services\/ServicePropertyWrapper\/ServicePropertyWrapper.swift"
+            },
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK\/Sources\/Base_SDK\/Utility\/Enums\/ServiceType.swift"
+            },
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK\/Sources\/Base_SDK\/NetworkManagers\/TradeNetworkManager.swift"
+            },
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK\/Sources\/Base_SDK\/Services\/PortfolioService.swift"
+            },
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK\/Sources\/Base_SDK\/Base_SDK.swift"
+            },
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK\/Sources\/Base_SDK\/Services\/ServiceContainer\/ServiceContainer.swift"
+            },
+            {
+              "path" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK\/Sources\/Base_SDK\/Models\/PortfolioEntity.swift"
+            }
+          ],
+          "productName" : "Base_SDK",
+          "destinations" : [
+            "appleVisionWithiPadDesign",
+            "macWithiPadDesign",
+            "iPad",
+            "iPhone"
+          ],
+          "scripts" : [
+
+          ],
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "name" : "Base_SDK",
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            },
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            },
+            "configurations" : [
+              {
+                "variant" : "debug",
+                "name" : "Debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ]
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "buildRules" : [
+
+          ],
+          "prune" : false,
+          "environmentVariables" : {
+
+          },
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "mergeable" : false,
+          "dependencies" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "playgrounds" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "bundleId" : "Base.SDK",
+          "launchArguments" : [
+
+          ],
+          "coreDataModels" : [
+
+          ]
+        }
+      ],
+      "xcodeProjPath" : "\/Users\/amilam\/source\/tuist\/MainApplication\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Base_SDK\/Base_SDK.xcodeproj"
+    }
+  ]
+}
